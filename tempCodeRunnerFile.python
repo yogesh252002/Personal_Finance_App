@@ -1,0 +1,17 @@
+
+#(a) Write a program with function, Find_vowel that prints and counts identified vowels, Write another function main, in main() function accept a string from user then pass accepted complete string or character by character string to the Find_vowel function and then count number of vowels and display identified vowels in that string
+
+def Find_vowel(s):
+    for i in s:
+        if s.find('a' or 'e' or 'i' or 'u' or 'o')==1:
+            print(s)
+
+
+         
+
+def Main():
+     s=input()
+     Find_vowel(s)
+
+Main()
+
